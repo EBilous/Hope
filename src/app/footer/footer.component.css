@@ -1,0 +1,30 @@
+@keyframes textAnimation {
+  0% {
+    transform: translateX(0);
+    color: #ff0000; /* Start color */
+  }
+  50% {
+    transform: translateX(50%); /* Move halfway to the right */
+    color: #00ff00; /* Intermediate color */
+  }
+  100% {
+    transform: translateX(100%); /* Move all the way to the right */
+    color: #0000ff; /* End color */
+  }
+}
+
+.footer-text {
+  animation: textAnimation 5s linear infinite;
+  font-size: 25px;
+}
+
+.footer-text {
+  font-family: "American Typewriter", cursive;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Adjust the height as needed to center the text within the viewport */
+}
+

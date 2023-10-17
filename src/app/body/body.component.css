@@ -12,4 +12,7 @@
 .login-button {
   animation: buttonAnimation 2s infinite;
   align-content: center;
+  margin: 0 auto;
+  display: block;
+
 }
