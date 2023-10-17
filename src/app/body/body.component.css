@@ -1,0 +1,15 @@
+@keyframes buttonAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.login-button {
+  animation: buttonAnimation 2s infinite;
+  align-content: center;
+}
